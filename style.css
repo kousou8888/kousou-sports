@@ -69,11 +69,22 @@ a {
   width: calc(320 * 100vw / 1440);
   height: calc(60 * 100vw / 1440);
   background-color: #1515FC;
+  -webkit-box-shadow: calc(10 * 100vw / 1440) calc(10 * 100vw / 1440) calc(10 * 100vw / 1440) rgba(0, 0, 0, 0.3);
+          box-shadow: calc(10 * 100vw / 1440) calc(10 * 100vw / 1440) calc(10 * 100vw / 1440) rgba(0, 0, 0, 0.3);
   border-radius: 50vw;
   font-size: calc(30 * 100vw / 1440);
   line-height: calc(60 * 100vw / 1440);
   text-align: center;
   color: #fff;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+#main .admission-fee-btn :hover {
+  -webkit-box-shadow: calc(0 * 100vw / 1440) calc(0 * 100vw / 1440) calc(0 * 100vw / 1440) rgba(0, 0, 0, 0.3);
+          box-shadow: calc(0 * 100vw / 1440) calc(0 * 100vw / 1440) calc(0 * 100vw / 1440) rgba(0, 0, 0, 0.3);
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 #main .admission-fee-btn i {
